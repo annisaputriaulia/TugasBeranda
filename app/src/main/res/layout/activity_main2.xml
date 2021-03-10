@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="ARTIKEL"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/gdcb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Are we all ready for G-Dragon's return? K-pop idol G-Dragon, real name Kwon Ji-yong, is getting ready to come back! We repeat, G-Dragon is making a comeback! On November 2, 2020, entertainment site OSEN reported that the BIGBANG leader has recently been preparing for a solo album. While details of the album have yet to be confirmed, South Korean agency YG Entertainment asserted that the G-Dragon is indeed “working on new music.”It can be recalled that G-Dragon's last solo album, titled “Kwon Ji Yong,” was in 2017, which became the best-selling album and the first by a Korean soloist to spend multiple weeks in the Billboard World Albums chart. Meanwhile, BIGBANG's last single “Flower Road” was released in 2018. The group was meant to restart their activities in April this year at Coachella, but the event was later canceled due to COVID-19. Since the announcement, many fans couldn't conceal their excitement for the return of the “King of K-pop.” As of this writing, the “#GDRAGONISCOMING” remains at the #1 spot on Twitter Philippines' trending topics."
+        android:textStyle="normal"
+        android:background="@color/silver"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:onClick="activity4"
+        android:text="Back to Beranda"
+        android:backgroundTint="@color/abutua"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:onClick="activity5"
+        android:text="Biodata Mahasiswa"
+        android:backgroundTint="@color/abutua"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
